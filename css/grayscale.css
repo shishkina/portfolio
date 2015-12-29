@@ -35,6 +35,13 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+img {
+       opacity: 0.7;
+       border: 2px solid black;
+       border-radius: 10px;
+       height: 350px;
+       width: 550px;
+}
 
 @media(min-width:768px) {
     p {
@@ -144,10 +151,10 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
     color: #fff;
-    background: url(https://cdn.makespace.com/blog/wp-content/uploads/2014/08/19182228/black-and-white-nyc-skyline-buildings.jpg) no-repeat bottom center scroll;
+    background: url(../img/black-and-white-nyc-skyline-buildings.jpg)  no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,7 +270,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .download-section {
@@ -286,11 +293,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 100px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 
     #map {
