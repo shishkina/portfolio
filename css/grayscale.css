@@ -42,27 +42,10 @@ img {
        height: 350px;
        width: 550px;
 }
-/*p.project-one-text{
-  width: 592px;
-  top: -398px;
-  position: relative;
-  height: 350px;
-  padding-top: 137px;
-  padding-right: 156px;
-  padding-left: 173px;
-  background: rgba(0,0,0,0.75);
-  visibility: hidden;
-  opacity: 0;
-  font-size: 42px;
-  font-weight: lighter;
-  color: white;
-  -webkit-transition: visibility .6s, opacity .6s;
-}*/
+
 img#project-image:hover p.project-one-text {
   visibility: visible;
   opacity: 0.6;
-
-
 }
 
 @media(min-width:768px) {
