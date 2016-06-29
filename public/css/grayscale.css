@@ -76,7 +76,7 @@ img.project-image{
   border: 1px solid black;
   height: 250px;
   width: 100%;
-
+  margin: 10px 20px 10px 20px;
 }
 
 img.project-image:hover + p.project-text {
